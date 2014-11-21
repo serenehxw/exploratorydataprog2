@@ -19,9 +19,10 @@ barplot(
   names.arg=aggTotalsBaltimore$year,
   xlab="Year",
   ylab="PM2.5 Emissions (Tons)",
-  main="Total PM2.5 Emissions From All Baltimore City Sources", font.main=3
+  main="Total PM2.5 Emissions From All Baltimore City Sources", font.main=1
 )
 
 ## Saving to file
 dev.copy(png, file="plot2.png", height=480, width=540)
 dev.off()
+
